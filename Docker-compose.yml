@@ -3,7 +3,7 @@ version: '3.8'
 services:
   canara_app:
     image: canara_image
-    container_name: canara_container
+    container_name: maven_docker
     build:
       context: .
       dockerfile: Dockerfile
